@@ -1,1 +1,40 @@
 <app-navbar></app-navbar>
+
+<div class="container offset-md-3">
+    <a  type="button" class="button btn-default">
+       <div class="col-xs-12 col-md-12">
+            <span><img src="/src/assets/yoga.png" width="80px" height="80px"></span>
+       </div>
+       <div class="col-xs-12 col-md-12">
+            <span class="spacing">Yoga</span>
+       </div>
+    
+    </a>
+    <a routerLink="/fitness" type="button" class="button btn-default"> 
+        <div class="col-xs-12 col-md-12">
+                <span><img src="/src/assets/fitness.png" width="80px" height="80px"></span>
+        </div>
+        <div class="col-xs-12 col-md-12">
+                <span class="spacing">Fitness</span>
+        </div>
+    </a>
+    <a type="button" class="button btn-default">
+           <div class="col-xs-12 col-md-12">
+                <span><img src="/src/assets/dance.png" width="80px" height="80px"></span>
+           </div>
+        <div class="col-xs-12 col-md-12">
+                <span class="spacing">Dance</span>
+        </div>
+     </a>
+     <a type="button" class="button btn-default">
+            <div class="col-xs-12 col-md-12">
+                    <span><img src="/src/assets/pilates.png" width="80px" height="80px"></span>
+            </div>
+         <div class="col-xs-12 col-md-12">
+                <span class="spacing">Pilates</span>
+         </div>
+    </a>
+
+    <router-outlet></router-outlet>
+
+</div>

@@ -2,7 +2,7 @@
     /* The image used */
     background-image: url("/src/assets/banner.jpg");
     background-color: black;
-    min-height: 250px;
+    min-height: 270px;
     position: absolute;
     left: 10%;
     width: 75%; 
