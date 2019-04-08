@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { DataService } from './data.service';
 
 import { FooterComponent } from './footer/footer.component';
+import { YogaComponent } from './yoga/yoga.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     FitnessComponent,
     
-    FooterComponent
+    FooterComponent,
+    
+    YogaComponent
   ],
   imports: [
     BrowserModule,AppRoutingModule

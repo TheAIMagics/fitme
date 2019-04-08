@@ -13,7 +13,7 @@ export class DataService{
         new Data(
         'Perfect Body System',
         'Jasmine Taylor',
-        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!  Its time you include yoga in your fitness regime. Yoga is often understood as an exercise only limited to performing yoga asanas or poses',
+        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!   ',
         'Health Forge',
         'Multisport',
         '10/14',
@@ -22,7 +22,7 @@ export class DataService{
     new Data(
         'Body & Soul',
         'Jasmine Taylor',
-        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!  Its time you include yoga in your fitness regime. Yoga is often understood as an exercise only limited to performing yoga asanas or poses',
+        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!  ',
         'Health Forge',
         'Multisport',
         '10/14',
@@ -31,7 +31,7 @@ export class DataService{
     new Data(
         'Power Pump',
         'Jasmine Taylor',
-        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!  Its time you include yoga in your fitness regime. Yoga is often understood as an exercise only limited to performing yoga asanas or poses',
+        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions! ',
         'Health Forge',
         'Multisport',
         '10/14',
@@ -40,7 +40,7 @@ export class DataService{
     new Data(
         'Rapid',
         'Jasmine Taylor',
-        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions!  Its time you include yoga in your fitness regime. Yoga is often understood as an exercise only limited to performing yoga asanas or poses',
+        'Cards are built with as little markup and styles as possible, A new year has begun and its time for a fresh start! Some healthy New Year resolutions! ',
         'Health Forge',
         'Multisport',
         '10/14',
