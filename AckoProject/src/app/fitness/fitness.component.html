@@ -1,10 +1,98 @@
-
+<div class="row" *ngFor="let d of data">
     <div class="col-xs-4 col-sm-4">
-        <div class="card" *ngFor="let d of data">
+        <div class="card" >
             <div class="card-body">
-                <img class="card-img-top" src="{{d.imagePath}}" alt="Card image cap">
-                <h5 class="card-title"> {{d.name}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <div class="row">
+                    <div class="col-xs-5 col-sm-5">
+                         <img class="card-img-top" src="{{d.imagePath}}" alt="Card image cap" height="100px">
+                         <h6 style="font-weight: bold">Club: <span class="text-muted">{{d.club}}</span></h6>
+                         <h6 style="font-weight: bold">Partners: <span class="text-muted"> {{d.partners}} </span></h6>
+                         <h6 style="font-weight: bold">Members: <span class="text-muted">{{d.members}}</span></h6>
+
+                         <!--Images-->
+                        <div class="row">
+                                <img src="https://sandbox-uploads.imgix.net/u/1554761934-bb6a3698b306647895de956b939ad35a?w=600" class="rounded-circle" 
+                                height="30px" width="30px" walt="Cinque Terre">
+                                <img src="https://sandbox-uploads.imgix.net/u/1554762218-125aa5899c669e0d9c770289f1cf1f54?w=600" class="rounded-circle" 
+                                height="30px" width="30px" walt="Cinque Terre">
+                                <img src="https://sandbox-uploads.imgix.net/u/1554762289-d2a735c61529acf182c4368b80991906?w=600" class="rounded-circle" 
+                                height="30px" width="30px" walt="Cinque Terre">
+                                <img src="https://sandbox-uploads.imgix.net/u/1554762315-932a43ffd2d871e29eb509fdaa950474?w=600" class="rounded-circle" 
+                                height="30px" width="30px" walt="Cinque Terre">
+
+                        </div>
+                    </div>
+                    <div class="col-xs-7 col-sm-7">
+                            <h5 class="card-title" style="font-weight: bold"> {{d.name}}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"> by {{d.author}}</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">{{d.description}}</h6>
+                            
+                            <div class="container">
+                                    <span class="heading"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <br>
+                                <button class="btn btn-primary float-right" style="background:#8080ff">
+                                    SCHEDULE
+                                </button>
+                            </div>
+                    </div>
+                </div>
+                
+                
+                
             </div>
         </div>
     </div>
+    <div class="col-xs-4 col-sm-4">
+            <div class="card" >
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5">
+                             <img class="card-img-top" src="{{d.imagePath}}" alt="Card image cap" height="100px">
+                             <h6 style="font-weight: bold">Club: <span class="text-muted">{{d.club}}</span></h6>
+                             <h6 style="font-weight: bold">Partners: <span class="text-muted"> {{d.partners}} </span></h6>
+                             <h6 style="font-weight: bold">Members: <span class="text-muted">{{d.members}}</span></h6>
+    
+                             <!--Images-->
+                            <div class="row">
+                                    <img src="https://sandbox-uploads.imgix.net/u/1554761934-bb6a3698b306647895de956b939ad35a?w=600" class="rounded-circle" 
+                                    height="30px" width="30px" walt="Cinque Terre">
+                                    <img src="https://sandbox-uploads.imgix.net/u/1554762218-125aa5899c669e0d9c770289f1cf1f54?w=600" class="rounded-circle" 
+                                    height="30px" width="30px" walt="Cinque Terre">
+                                    <img src="https://sandbox-uploads.imgix.net/u/1554762289-d2a735c61529acf182c4368b80991906?w=600" class="rounded-circle" 
+                                    height="30px" width="30px" walt="Cinque Terre">
+                                    <img src="https://sandbox-uploads.imgix.net/u/1554762315-932a43ffd2d871e29eb509fdaa950474?w=600" class="rounded-circle" 
+                                    height="30px" width="30px" walt="Cinque Terre">
+    
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7">
+                                <h5 class="card-title" style="font-weight: bold"> {{d.name}}</h5>
+                                <h6 class="card-subtitle mb-2 text-muted"> by {{d.author}}</h6>
+                                <h6 class="card-subtitle mb-2 text-muted">{{d.description}}</h6>
+                                
+                                <div class="container">
+                                        <span class="heading"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <br>
+                                    <button class="btn btn-primary float-right" style="background:#8080ff">
+                                        SCHEDULE
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>

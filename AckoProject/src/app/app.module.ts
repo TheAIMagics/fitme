@@ -7,11 +7,15 @@ import { FitnessComponent } from './fitness/fitness.component';
 import { AppRoutingModule } from './app-routing.module'
 import { DataService } from './data.service';
 
+import { FooterComponent } from './footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FitnessComponent
+    FitnessComponent,
+    
+    FooterComponent
   ],
   imports: [
     BrowserModule,AppRoutingModule
