@@ -1,0 +1,62 @@
+.bg-img {
+    /* The image used */
+    background-image: url("/src/assets/banner.jpg");
+    background-color: black;
+    min-height: 250px;
+    position: absolute;
+    left: 10%;
+    width: 75%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .container1{
+      background-color: black;
+  }
+  .navbar-light .navbar-brand {
+    color: cyan;
+    padding: 0px;
+    margin: 0px;
+}
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+   color: cyan;
+   
+}
+.navbar-nav{
+    flex-direction: row;
+}
+.nav-item{
+    padding: 15px;
+    font-weight: bold;
+}
+
+#heading{
+    color:white;
+    font-size: 38px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 25px;  
+    margin-top: 0px;
+    font-stretch: expanded;
+    letter-spacing: 2px;
+}
+
+input.form-control{
+    padding: 25px;
+    border-radius: 7px;
+}
+.btn-primary{
+    border-radius: 7px;
+  background:#8080ff;
+  padding: 15px; 
+  width: 200px;
+  height: 50px; 
+}
+#fitness{
+    font: outline;
+    color: #669900
+}
